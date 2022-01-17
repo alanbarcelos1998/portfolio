@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #022F40;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+
+aside{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#text{
+    margin-top: -10%;
+    margin-left: 30%;
+
+}
+
+/* aside p{
+    margin-top: 5px;
+    text-align: center;
+    border-right: none;
+} */
+
+#img {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+#minhaFoto{
+    border-radius: 50%;
+    width: 20%;
+}
+
+article{
+    margin-top: 60px;
+    border-left: 3px solid black;
+}
+
+article h1{
+    margin-left: 10px;
+    margin-right: 200px;
+    color: #0CAEE9;
+}
+
+article p{
+    margin: 10px 50px 10px 50px;
+}
+
+#sobre {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+#habilidades{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+#list-skill{
+    margin-bottom: 15px;
+}
+
+#projetos{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+}
+
+.conteudo-projeto h3{
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #77D6F8;
+}
+
+.conteudo-projeto a{
+    text-decoration: none;
+    color: #77D6F8;
+    transition: 30ms;
+}
+
+.conteudo-projeto a:hover{
+    color: red;
+}
+
+.tec-usadas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tec-usadas p{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+#list-skill{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin: 10px; */
+
+}
+
+.skill{
+    width: 10%;
+    height: 5%;
+    margin-left: 55px;
+    margin-top: 35px;
+}
+
+@media (max-width: 600px){
+    aside{
+       display: flex; 
+       flex-direction: row;
+       flex-wrap: wrap;
+       margin-left: 70px;
+       padding: 12px;
+       text-align: center;
+    }
+    
+    aside p{
+        margin-top: 5px;
+    }
+    
+    #minhaFoto {
+        display: none;
+    }
+    
+    article{
+        margin-top: 20px;
+        margin-left: 30px;
+        border: none;
+    }
+    
+}
+
+    

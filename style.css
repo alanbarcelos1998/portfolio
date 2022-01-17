@@ -120,11 +120,17 @@ article p{
        display: flex; 
        flex-direction: row;
        flex-wrap: wrap;
-       margin-left: 70px;
+       margin-top: 10%;
+       margin-right: 70%;
        padding: 12px;
        text-align: center;
+
     }
     
+    #img{
+        display: none;
+    }
+
     aside p{
         margin-top: 5px;
     }

@@ -1,149 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alan Barcelos</title>
-    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
     <link rel="stylesheet" href="style.css">
-    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tauri&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div>
-        <div id="img">
-            <img id="minhaFoto" src="img/minhaFoto.jpeg" alt="Foto de Alan Barcelos">
-        </div>
-        <aside>
-            <div id="text">
-                <h2>Alan Barcelos</h2>
-                <h3>Técnico de suporte</h3>
-                <p>Em <strong>Open Manager</strong></p>
-                <p>alanbasiliobarcelos@hotmail.com</p>
-                <p>(27) 99265-0099</p>
-            </div>
-        </aside>
 
-        <article>
-        
-            <div id="sobre">
-                <h1># Sobre mim</h1>
-                <p> Entusiasta da Tecnologia e programador desde 2020, atuo com tecnologias voltadas para o desenvolvimento de sistemas web, indo do backend até o frontend.</p>
-                <p>Atualmente estou cursando Análise e Desenvolvimento de Sistemas pela UNIMAR, sou também técnico de suporte em um sistema de gestão empresarial onde atuo dando treinamentos, helpdesk, dentre outros serviços.</p>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#resumo">Resumo</a></li>
+                    <li><a href="#experiencia">Experiências</a></li>
+                    <li><a href="#tecnologias">Tecnologias</a></li>
+                    <li><a href="#escolaridade">Escolaridade</a></li>
+                </ul>
             </div>
-    
-            <div id="habilidades">
-                <h1># Habilidades</h1>
-                <div id="list-skill">
-                    <div class="skill">
-                        <img src="img/node.png" alt="NodeJS" title="NodeJS">
-                    </div>
-                    <div class="skill">
-                        <img src="img/php.png" alt="PHP" title="PHP">
-                    </div>
-                    <div class="skill">
-                        <img src="img/golang.png" alt="Go Lang" title="Go Lang">
-                    </div>
-                    <div class="skill">
-                        <img src="img/html-5.png" alt="HTML" title="HTML">
-                    </div>
-                    <div class="skill">
-                        <img src="img/css-3.png" alt="CSS" title="CSS">
-                    </div>
-                    <div class="skill">
-                        <img src="img/laravel.png" alt="Laravel" title="Laravel">
-                    </div>
-                    <div class="skill">
-                        <img src="img/vuejs.png" alt="VueJS" title="VueJS">
-                    </div>
-                    <div class="skill">
-                        <img src="img/mysql.png" alt="MySQL" title="MySQL">
-                    </div>
-                    <div class="skill">
-                        <img src="img/git.png" alt="Git" title="Git">
-                    </div>
-                    <div class="skill">
-                        <img src="img/github.png" alt="GitHub" title="GitHub">
-                    </div>
-                    <div class="skill">
-                        <img src="img/mongodb.png" alt="MongoDB" title="MongoDB">
-                    </div>
-                </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="row" id="resumo">
+            <h1 class="left">Alan Basilio Barcelos Medeiros</h1>
+            <div class="col m4 l4">
+                <img width="150" height="150" src="img/minhaFoto.jpeg" alt="">
             </div>
-            
-            <div id="projetos">
-                <h1># Projetos</h1>
-                <div class="conteudo-projeto">
-                    <h3><a href="https://github.com/alanbarcelos1998/localizapp" target="_blanket"># LocalizApp</a></h3>
-                    <p>Projeto desenvolvido com o intuíto de buscar endereços pelo CEP e também achar CEP pelos endereços.</p>
-                    <p>Neste projeto foi utilizado a API viaCep, que foi consumida pela aplicação para mostrar os dados contidos na API.</p>
-                    <p><strong>Tecnologias utilizadas:</strong></p>
-                    <div class="tec-usadas">
-                        <p>NodeJS</p>
-                        <p>Express</p>
-                        <p>Express-handlebars</p>
-                        <p>Node-fetch</p>
+            <div class="col m8 l8">
+                Desenvolvedor de softwares
+            </div>
+            <div class="col m8 l8">
+                Formado em Análise e Desenvolvimento de Sistemas (UNIMAR)
+            </div>
+            <div class="col m8 l8">
+                <a href="https://www.linkedin.com/in/alan-bbarcelos/" target="_blank">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/linkedin.png" alt="linkedin" />
+                </a>
+                <a href="https://wa.me/5527992650099/?text=Ola" target="_blank">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/whatsapp--v1.png" alt="Whatsapp" />
+                </a>
+                <a href="https://www.99freelas.com.br/user/alan-basilio-barcelos" target="_blank" title="99 freelas">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/99.png" alt="99" />
+                </a>
+                <a href="https://github.com/alanbarcelos1998" target="_blank" title="99 freelas">
+                    <img width="50" height="50" src="https://img.icons8.com/ios/50/github--v1.png" alt="Github" />
+                </a>
+            </div>
+            <div class="col m8 l8">
+                <b>Telefone:</b> (27)99265-0099
+            </div>
+            <div class="col m8 l8">
+                <b>E-mail:</b> alanbasiliobarcelos@hotmail.com
+            </div>
+        </div>
+
+        <div class="row" id="resumo">
+            <h1 class="left">Resumo</h1>
+
+            <p class="col m12">Sou desenvolvedor desde 2020, passando por diversos desafios que vão da aprendizagem ao
+                primeiro emprego, sendo este último o mais desafiador.</p>
+            <p class="col m12">Atuei com sistema CRM (Notas fiscais, cupons fiscais, PDV), API's de app delivery
+                trabalhando no setor de integrações, implementação de features referentes a demandas de terceiros,
+                criação de painel com dashboard e atualmente com sistema de PACS.</p>
+            <p class="col m12">Independente da tecnologia ou demanda gosto de estar trabalhando e ampliando meus
+                conhecimentos, mas sendo meu ponto forte o desenvolvimento back-end.</p>
+        </div>
+
+        <div class="row" id="experiencia">
+            <h1 class="left ">Experiências</h1>
+            <div class="row"></div>
+            <div class="col m6 l4">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="img/raioss.jpeg">
                     </div>
-                </div>
-    
-                <div class="conteudo-projeto">
-                    <h3><a href="https://github.com/alanbarcelos1998/App-Estacionamento" target="_blanket"># App para Estacionamento</a></h3>
-                    <p>Desenvolvido com o objetivo de ter uma aplicação que gerencie de forma simples um estacionamento de automóveis.</p>
-                    <p><strong>Tecnologias utilizadas:</strong></p>
-                    <div class="tec-usadas">
-                        <p>VueJS</p>
-                        <p>Vue Router</p>
-                        <p>Json-Server</p>
-                    </div>
-                </div>
-    
-                <div class="conteudo-projeto">
-                    <h3><a href="https://github.com/alanbarcelos1998/Whatsapp_Clone" target="_blanket"># Whatsapp Clone</a></h3>
-                    <p>Este projeto nada mais é do que o clone da interface do Whatsapp web, só que no formato estático.</p>
-                    <p><strong>Tecnologias utilizadas:</strong></p>
-                    <div class="tec-usadas">
-                        <p>HTML</p>
-                        <p>CSS</p>
-                    </div>
-                </div>
-    
-                <div class="conteudo-projeto">
-                    <h3><a href="https://github.com/alanbarcelos1998/APIRestFul_nodeJS" target="_blanket"># API RestFul</a></h3>
-                    <p>O objetivo deste projeto foi a criação de uma API que conecta com o mongoDB e traz informações relacionadas a funcionários, como seu nome e salário.</p>
-                    <p><strong>Tecnologias utilizadas:</strong></p>
-                    <div class="tec-usadas">
-                        <p>NodeJS</p>
-                        <p>MongoDB</p>
-                        <p>Express</p>
-                        <p>Mongoose</p>
-                        <p>DotEnv</p>
-                    </div>
-                </div>
-    
-                <div class="conteudo-projeto">
-                    <h3><a href="https://github.com/alanbarcelos1998/CRRshell" target="_blanket"># CRR Shell</a></h3>
-                    <p>Uma CLI (Command Line Interface) criada em NodeJS com o objetivo de criar arquivos e pastas, dando a possibilidade de manipulação de forma fácil e rápida de arquivos e diretórios diretamente pela linha de comando de um terminal Linux ou CMD Windows.</p>
-                    <p><strong>Tecnologias utilizadas:</strong></p>
-                    <div class="tec-usadas">
-                        <p>NodeJS</p>
-                        <p>Chalk</p>
-                        <p>Inquirer</p>
-                    </div>
-                </div>
-    
-                <div class="conteudo-projeto">
-                    <h3><a href="https://github.com/alanbarcelos1998/ToDo_List-Vue" target="_blanket"># ToDo List</a></h3>
-                    <p>Todo list simples criado utilizando VueJS e Vue Router.</p>
-                    <p><strong>Tecnologias utilizadas:</strong></p>
-                    <div class="tec-usadas">
-                        <p>VueJS</p>
-                        <p>Vue Router</p>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>Analista em Desenvolvimento</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#raioss"
+                                class="btn-floating halfway-fab waves-effect waves-light red  modal-trigger"><i
+                                    class="material-icons">more</i></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </article>
+            <div class="col m6 l4">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="img/ayko.jpeg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>Analista em Desenvolvimento</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#ayko"
+                                class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"><i
+                                    class="material-icons">more</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 l4">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="img/americanasdelivery_logo.jpeg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>Desenvolvedor Fullstack</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#americanas"
+                                class="btn-floating halfway-fab waves-effect waves-light red modal-trigger"><i
+                                    class="material-icons">more</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col m6 l4">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="img/openManager.jpeg">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <p>Programador Jr.</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="#openM"
+                                class="btn-floating halfway-fab waves-effect waves-light red  modal-trigger"><i
+                                    class="material-icons">more</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row" id="tecnologias">
+            <h1 class="left"> Tecnologias</h1>
+            <div class="row"></div>
+            <div class="col m2 l2">
+                <img width="100" height="96" src="https://img.icons8.com/badges/96/php-logo.png" alt="php">
+                <span><b>PHP</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="96" height="96" src="https://img.icons8.com/fluency/96/laravel.png" alt="laravel" />
+                <span><b>Laravel</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="96" height="96" src="https://img.icons8.com/color/96/javascript--v1.png"
+                    alt="javascript--v1" />
+                <span><b>Javascript</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="96" height="96" src="https://img.icons8.com/color/96/bootstrap--v2.png"
+                    alt="bootstrap--v2" />
+                <span><b>Bootstrap</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="96" height="96" src="https://img.icons8.com/fluency/96/docker.png" alt="docker" />
+                <span><b>Docker</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="96" height="96" src="https://img.icons8.com/fluency/96/vuejs.png" alt="vuejs" />
+                <span><b>VueJS</b></span>
+            </div>
+            <div class="row"></div>
+            <div class="col m2 l2">
+                <img width="96" height="96" src="https://img.icons8.com/ios-filled/100/wordpress--v1.png"
+                    alt="wordpress--v1" />
+                <span><b>Wordpress</b></span>
+            </div>
+
+            <div class="col m2 l2">
+                <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/mysql.png" alt="mysql" />
+                <span><b>MySQL</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="96" height="96" src="https://img.icons8.com/windows/96/nodejs.png" alt="nodejs" />
+                <span><b>NodeJS</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="96" height="96" src="https://img.icons8.com/color/96/mongodb.png" alt="mongodb" />
+                <span><b>MongoDB</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="100" height="100" src="https://img.icons8.com/ios-filled/100/api-settings.png"
+                    alt="api-settings" />
+                <span><b>Rest API</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="100" height="100"
+                    src="https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Fimages.ctfassets.net%2Fdm4oa8qtogq0%2F7itC2HCUzB8niG84hATEJ3%2Fbfbc27716eb45c7441380d0b65a72aed%2Flogo-n8n-512x512-transp.png"
+                    alt="api-settings" />
+                <span><b>N8N</b></span>
+            </div>
+            <div class="col m2 l2">
+                <img width="96" height="96"
+                    src="https://img.icons8.com/external-those-icons-fill-those-icons/96/external-Git-social-media-those-icons-fill-those-icons.png"
+                    alt="external-Git-social-media-those-icons-fill-those-icons" />
+                <span><b>Git</b></span>
+            </div>
+        </div>
+
+        <div class="row" id="escolaridade">
+            <h1 class="left">Escolaridade</h1>
+            <div class="row"></div>
+            <div class="col m6 l6">
+                <p><b>UNIMAR</b></p>
+                <p>Tecnólogo de Análise e Desenvolvimento de Sistemas</p>
+                <p>Concluído</p>
+            </div>
+            <div class="col m6 l6">
+                <p><b>UNIMAR</b></p>
+                <p>Bacharelado em Ciências Contábeis</p>
+                <p>Cursando</p>
+            </div>
+
+        </div>
+
+        <div id="raioss" class="modal">
+            <div class="modal-content">
+                <h4>Analista de Desenvolvimento</h4>
+
+                <div class="col s6 l6 m6">
+                    <p><b>Período:</b> 12/2023 - Atual</p>
+                    <p><b>Funções:</b></p>
+                    <ul>
+                        <li>Criação de Telas</li>
+                        <li>Integrações via API</li>
+                        <li>Montagem de PDF's customizados</li>
+                        <li>Correção de bugs</li>
+                    </ul>
+                </div>
+                <div class="col s6 l6 m6">
+                    <p><b>Tecnologias: </b></p>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                        <li>MySQL</li>
+                        <li>Azure</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat red white-text">Fechar</a>
+            </div>
+        </div>
+        <div id="americanas" class="modal">
+            <div class="modal-content">
+                <h4>Desenvolvedor Fullstack</h4>
+
+                <div class="col s6 l6 m6">
+                    <p><b>Período:</b> 06/2022 - 03/2023</p>
+                    <p><b>Funções:</b></p>
+                    <ul>
+                        <li>Criação de API's</li>
+                        <li>Criação de documentações</li>
+                        <li>Otimização de consultas</li>
+                        <li>Correção de bugs</li>
+                    </ul>
+                </div>
+                <div class="col s6 l6 m6">
+                    <p><b>Tecnologias: </b></p>
+                    <ul>
+                        <li>Laravel</li>
+                        <li>Javascript</li>
+                        <li>N8N</li>
+                        <li>MySQL</li>
+                        <li>Filas</li>
+                        <li>Git</li>
+                        <li>SCRUM</li>
+                        <li>Docker</li>
+                        <li>API's</li>
+                        <li>Microsserviços</li>
+                        <li>Clean Code</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat red white-text">Fechar</a>
+            </div>
+        </div>
+        <div id="ayko" class="modal">
+            <div class="modal-content">
+                <h4>Analista de Desenvolvimento</h4>
+
+                <div class="col s6 l6 m6">
+                    <p><b>Período:</b> 03/2023 - 10/2023</p>
+                    <p><b>Funções:</b></p>
+                    <ul>
+                        <li>Criação de dashboard</li>
+                        <li>Modelagem de dados</li>
+                        <li>Integrações de gerenciadores de login</li>
+                        <li>Dados em tempo real</li>
+                    </ul>
+                </div>
+                <div class="col s6 l6 m6">
+                    <p><b>Tecnologias: </b></p>
+                    <ul>
+                        <li>Laravel</li>
+                        <li>VueJS</li>
+                        <li>MaterializeCss</li>
+                        <li>MySQL</li>
+                        <li>Docker</li>
+                        <li>Git</li>
+                        <li>Redis</li>
+                        <li>Javascript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat red white-text">Fechar</a>
+            </div>
+        </div>
+        <div id="openM" class="modal">
+            <div class="modal-content">
+                <h4>Analista de Desenvolvimento</h4>
+
+                <div class="col s6 l6 m6">
+                    <p><b>Período:</b> /2023 - Atual</p>
+                    <p><b>Funções:</b></p>
+                    <ul>
+                        <li>Criação de Telas</li>
+                        <li>Mudança de regras fiscais</li>
+                        <li>Montagem de PDF's customizados</li>
+                        <li>Correção de bugs</li>
+                        <li>Otimização de queries SQL</li>
+                        <li>Integração com sistemas de terceiros</li>
+                    </ul>
+                </div>
+                <div class="col s6 l6 m6">
+                    <p><b>Tecnologias: </b></p>
+                    <ul>
+                        <li>PHP</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                        <li>MySQL</li>
+                        <li>Azure</li>
+                        <li>Git</li>
+                        <li>KnockoutJS</li>
+                    </ul>
+                </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <a href="#!" class="modal-close waves-effect waves-green btn-flat red white-text">Fechar</a>
+            </div>
+        </div>
     </div>
 
 
 </body>
+
 </html>
